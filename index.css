@@ -1,10 +1,13 @@
 .header {
-  height: 110px;
+  height: 60px;
   width: 1440px;
   position: relative;
   background-color: var(--color-gray);
   display: none;
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .frame-child {
@@ -31,8 +34,9 @@
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
-  debug_commit: 1de1738;
+
   white-space: nowrap;
+  margin-right: 100px;
 }
 
 .vrio {
@@ -243,6 +247,12 @@
   text-align: center;
 }
 
+.final {
+  width: 60%;
+  margin-right: 100px;
+
+}
+
 .pexels-balidmr-3415148-1-parent {
   margin-bottom: -529px;
   flex: 1;
@@ -288,7 +298,7 @@
   z-index: 3;
 }
 
-.final,
+/* .final,
 .frame-parent {
   align-self: stretch;
   display: flex;
@@ -307,7 +317,7 @@
   font-size: 90px;
   color: var(--color-white);
   font-family: var(--font-sf-pro);
-}
+} */
 
 .frame-parent {
   flex-direction: column;
